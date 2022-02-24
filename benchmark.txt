@@ -1,0 +1,47 @@
+###Teams/365
+Teams est une plateforme collaborative de visioconférence créée par Microsoft
+
+#avantages
+  intégré dans Office 365
+  tous les outils, le contenu et les conversations restent dans l'environnement Teams (mobile ou desktop)
+  donne accès aux outils Microsoft Office (Word, Excel, OneNote, etc.)
+  peut être connecté à d'autres outils comme GitHub ou Twitter
+
+#inconvénients
+  entièrement contrôlé par Microsoft
+  version gratuite avec fonctionnalités limitées (appels de 60min avec 100 participants max, espace de stockage de 5 Go seulement)
+  assistants virtuels uniquement en anglais
+
+--------------------
+
+###Discord
+Plateforme de communication par messagerie instantanée et appels vidéos, initialement pensé pour le jeu vidéo en ligne afin de permettre aux joueurs d'une même partie dans le même jeu de communiquer entre eux
+
+#avantages
+  nombre illimité de messages avec l'offre gratuite
+  possibilité de créer différents canaux de discussions textuels et vocaux
+  intégrations de bots pour des tâches automatisées
+  jusqu'à 5000 utilisateurs par appel avec les offres payantes
+  stockage illimité
+  28 langues prises en charge
+
+#inconvénients
+  15 utilisateurs par appel avec Discord Free
+  téléversement de fichiers limité à 8 Mo
+  plus axé sur la communication audio et vidéo que textuel (messages et fils de discussions difficles à suivre)
+
+--------------------
+
+###Slack
+Outil de messagerie par canaux de discussions similaire à Discord vu plus haut
+
+#avantages
+  canaux de discussions
+  prise en charge de plus de 2400 apps tiers
+  partage de fichier jusqu'à 1 Go par fichier
+
+
+#inconvénients
+  formule gratuite limitée à 10000 messages (les plus anciens disparaissent pour laisser place aux nouveaux)
+  2 utilisateurs max par appel avec la formule gratuite (appels vocaux et vidéos)
+  seulement 8 langues prises en charge

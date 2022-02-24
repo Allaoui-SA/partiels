@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        
+    </head>
+    <body>
+        <form>
+            <label>Votre nom</label>
+            <input type="text">
+            <input type="submit" value="participer">
+        </form>
+
+        <div class="participants">
+            <h1>Participants</h1>
+        </div>
+
+        <form>
+            <input type="submit" value="jouer">
+        </form>
+
+        <div class="gagnant">
+            <h1>Gagnant(e)</h1>
+        </div>
+
+
+        <script type="text/javascript">
+            // exemple de participants
+            let participants = ['Jean', 'Paul', 'Marie', 'Francis']
+
+            //liste des participants
+            for (a=0; a < participants.length; a++) {
+                let tag = document.createElement("p")
+                let text = document.createTextNode(participants[a])
+                tag.appendChild(text)
+                let element = document.getElementsByClassName("participants")[0];
+                element.appendChild(tag)
+            }
+
+            //affichage aléatoire d'un participant
+            let i = Math.floor(Math.random() * participants.length)
+            console.log(participants[i])
+
+            let tag = document.createElement("p")
+            let text = document.createTextNode(participants[i])
+            tag.appendChild(text)
+            let element = document.getElementsByClassName("gagnant")[0];
+            element.appendChild(tag)
+
+        </script>
+    </body>
+</html>

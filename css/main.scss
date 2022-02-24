@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    max-width: 1024px;
+}
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    height: 250px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/120660.jpeg');
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+        .logo {
+            width: 200px;
+            object-fit: cover;
+        }
+        ul {
+            display: flex;
+            padding: 0;
+            li {
+                list-style-type: none;
+                &:not(:last-child) {
+                    padding-right: 20px;
+
+                }
+                img {
+                    width: 20px;
+                }
+            }
+        }
+    }
+}
+main {
+    background: #161616;
+    display: flex;
+    flex-wrap: wrap;
+    article {
+        min-width: 256px;
+        padding: 20px;
+        border: .5px solid #52c796;
+        position: relative;
+        .event-hover {
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: -1;
+            opacity: 0;
+            height: 100%;
+            width: 100%;
+            background: url('../images/692628.jpeg');
+            background-size: cover;
+            transition: .8s ease;
+            cursor: pointer;
+        }
+        &:hover {
+            .event-hover {
+                opacity: 1;
+                z-index: 99;
+            }
+        }
+        h1 {
+            margin-top: 0;
+            font-family: 'Poppins', sans-serif;
+            span {
+                font-size: .8rem;
+                font-weight: 400;
+            } 
+        }
+        p {
+            display: flex;
+            align-items: center;
+            color: #52c796;
+            .map {
+                width: 30px;
+                position: relative;
+                left: -5px;
+            }
+            &.event-title {
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+@media (max-width: 1023.98px) {
+    main {
+        article {
+            width: 50%;
+        }
+    }
+}
+
+@media (max-width: 513.98px) {
+    header {
+        nav {
+            justify-content: center;
+            ul:last-child {
+                display: none;
+            }
+        }
+    }
+    main {
+        article {
+            width: 100%;
+        }
+    }
+}
